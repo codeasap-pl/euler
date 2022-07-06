@@ -2,9 +2,9 @@
 #include "std.h"
 
 
-unsigned int solution_slow(unsigned int unused)
+unsigned long long solution_slow(unsigned int unused)
 {
-	unsigned int found = 0;
+	unsigned long long found = 0;
 	unsigned int i = 2520;
 
 	while(!found && i < UINT_MAX) {
@@ -30,9 +30,9 @@ unsigned int solution_slow(unsigned int unused)
 }
 
 
-unsigned int solution_slow_generic(unsigned int n)
+unsigned long long solution_slow_generic(unsigned int n)
 {
-	unsigned int found = 0;
+	unsigned long long found = 0;
 	unsigned int i = 0;
 
 	while(!found && i < UINT_MAX) {

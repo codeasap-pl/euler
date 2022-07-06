@@ -1,4 +1,4 @@
 #pragma once
 
-unsigned int solution_slow(unsigned int);
-unsigned int solution_slow_generic(unsigned int);
+unsigned long long solution_slow(unsigned int);
+unsigned long long solution_slow_generic(unsigned int);

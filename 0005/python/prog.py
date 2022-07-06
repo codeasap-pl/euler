@@ -40,9 +40,9 @@ def solution(n):
 
 if __name__ == "__main__":
     import sys
-    n = int(sys.argv[1]) if len(sys.argv) > 1 else 20
-
     import time
+
+    n = int(sys.argv[1]) if len(sys.argv) > 1 else 20
 
     start = time.perf_counter()
     product = solution(n)

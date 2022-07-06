@@ -1,7 +1,7 @@
-.PHONY: clean slow fast
+.PHONY: clean
 .NOTPARALLEL: clean
 
-CFLAGS ?= -Wall -Wextra -pedantic -O2 -lm
+CFLAGS ?= -Wall -Wextra -pedantic -O2
 INCLUDES = -I./
 
 all: clean build

@@ -10,3 +10,10 @@ What is the smallest positive number that is evenly divisible by all of the numb
 ## Blog post
 
 [https://blog.codeasap.pl/posts/euler/0004-largest-palindrome-product/](https://blog.codeasap.pl/posts/euler/0004-largest-palindrome-product/)
+
+
+## Variants
+
+- Python
+- C (naive)
+- C (prime factorization)

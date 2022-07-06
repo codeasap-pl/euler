@@ -1,7 +1,6 @@
 .NOTPARALLEL: clean
 
 CFLAGS ?=
-# CFLAGS ?= -DWITH_MEMOIZATION
 
 
 all: clean build
